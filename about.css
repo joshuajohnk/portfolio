@@ -1,0 +1,45 @@
+#about{
+    margin: 18% 8% 0px 8%;
+}
+
+.head2{
+    text-align: center;
+}
+
+.head2 h2{
+    font-size: 40px;
+}
+
+
+.head2 span{
+    font-size: 20px;
+    color: green;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);  /* 1fr=255px */
+    gap: 2rem; /* 1rem = 16px */
+    margin-top: 3rem;
+}
+
+.about-img img{
+    width: 80%;
+}
+
+.about-details p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.info-box span{
+    margin-left: 1rem;
+}

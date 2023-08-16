@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Cormorant+SC&family=Cormorant+Upright&family=Edu+SA+Beginner&family=Lumanosimo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.container{
+    width: 100%;
+    height: 100vh; /* viewport height, 1vh = 19.2px */
+    background-color: #ffffff;
+    position: relative; /* to make all child elmts pos relative to it */
+}
+
+.navbar{
+        display: flex;  /* to display side by side */
+        justify-content: space-between; /* to create space btw two child elts */
+        width: 85%;
+        margin-left: 100px;
+        align-items: center; /* to align  items to center vertically */
+}
+
+#logo{
+        width: 140px;
+}
+
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* tag:pseudo-clas{property:value} */
+
+.links:hover{
+    color: #602e0d;
+}
+

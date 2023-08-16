@@ -1,0 +1,92 @@
+#skills{
+    margin: 18% 8% 0px 8%;
+}
+
+.about-skills{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);  /* 1fr=255px */
+    gap: 2rem; /* 1rem = 16px */
+    margin-top: 3rem;
+}
+
+.skills-left{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.percent{
+    padding-right: 10px;
+    font-size: 1.15rem;
+}
+
+.skillname{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.sk1{
+    width: 500px;
+    height: 90px;
+}
+
+.sk1 .sk1-h{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar1-1{
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #313638;
+}
+
+.bar1-1 .bar1-2{
+    width: 475px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.bar2-1{
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #313638;
+}
+
+.bar2-1 .bar2-2{
+    width: 440px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.bar3-1{
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #313638;
+}
+
+.bar3-1 .bar3-2{
+    width: 445px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.bar4-1{
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #313638;
+}
+
+.bar4-1 .bar4-2{
+    width: 425px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}

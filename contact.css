@@ -1,0 +1,62 @@
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.icon, .uparrow{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 0px 10px;
+    
+}
+
+.icon i{
+    color: black;
+}
+
+.icon:hover{
+    background-image: -moz-linear-gradient(to bottom right,yellow,orange);
+
+}
+
+.icon:hover i{
+    color: #fff;
+    animation: shake 0.75s;
+}
+
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.uparrow{
+    float: right;
+    background-image: -moz-linear-gradient(to bottom right,yellow,orange);
+
+    margin: 0px 10px 50px 0px;
+}
+
+.uparrow:hover i{
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}

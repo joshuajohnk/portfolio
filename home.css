@@ -1,0 +1,58 @@
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+#head1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#span1{
+    color: #FFDE59;
+}
+
+.span2{
+    color: #fff;
+    font-size: 15px;
+}
+
+.span2:hover{
+    color: #FFDE59;
+    font-size: 15px;
+}
+
+#button1{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.title-img{
+    width: 45%;
+    height: 80%;
+    right: 30px;
+    position: absolute;
+    bottom: 0px;
+}
+.title-img img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 3s , left 1s;
+}
+
+.title-img:hover #shape{
+    bottom: 70px;
+}
+
+.title-img:hover #woman{
+    left: 30%;
+}
